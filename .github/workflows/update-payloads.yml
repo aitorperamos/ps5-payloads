@@ -71,7 +71,9 @@ jobs:
               "klogsrv": "ps5-payload-dev/klogsrv",
               "Lapy-JB-Daemon": "itsPLK/PS5-Lapy-JB-Daemon",
               "BackPork": "BestPig/BackPork",
-              "etaHEN": "etaHEN/etaHEN"
+              "etaHEN": "etaHEN/etaHEN",
+              "OrbitStore": "saawant12/orbit-store-ps5",
+              "BlackBox-Store": "D3ATHLY/blackbox"
             };
 
             for (let item of data.payloads) {
