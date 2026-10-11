@@ -1,0 +1,100 @@
+name: Update Payload Sources
+on:
+schedule:
+- cron: '*/5 * * * *' # Se ejecuta diariamente a medianoche
+workflow_dispatch: # Permite la ejecución manual desde la pestaña Actions
+jobs:
+update-json:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout repo
+uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update Payloads via Script
+        run: |
+          node -e '
+          const fs = require("fs");
+          
+          async function getLatestRelease(ownerRepo) {
+            try {
+              const res = await fetch(`https://api.github.com/repos/${ownerRepo}/releases/latest`, {
+                headers: { "User-Agent": "Node-Fetcher" }
+              });
+              if (!res.ok) return null;
+              return await res.json();
+            } catch (e) {
+              return null;
+            }
+          }
+
+          async function main() {
+            const fileContent = fs.readFileSync("payloads.json", "utf8");
+            const data = JSON.parse(fileContent);
+
+            // Mapeo de repos oficiales conocidos en base a tu lista
+            const repoMap = {
+              "ps5upload": "itsPLK/ps5upload", // Ajusta si el repo oficial es diferente
+              "WebKit-Autoloader-Installer": "itsPLK/ps5-webkit-autoloader",
+              "PKG-Manager": "itsPLK/ps5-pkg-manager",
+              "ps-patch-system": "illusionyy/ps-patch-system",
+              "ps5-web-file-manager": "owendswang/ps5-web-file-manager",
+              "ps5-app-dumper": "EchoStretch/ps5-app-dumper",
+              "CheatRunner": "notmaj0r/CheatRunner",
+              "ShadowMountPlus": "drakmor/ShadowMountPlus",
+              "zftpd": "seregonwar/zftpd",
+              "pldmgr": "itsPLK/ps5-payload-manager",
+              "ps5debug-NG": "Pharaoh2k/ps5debug-NG",
+              "kstuff-lite": "EchoStretch/kstuff-lite",
+              "ftpsrv-drakmor": "drakmor/ftpsrv",
+              "garlic-savemgr": "earthonion/garlic-savemgr",
+              "onionHEN": "aydencharles/onionHEN",
+              "ps5-linux-loader": "ps5-linux/ps5-linux-loader",
+              "elfldr": "ps5-payload-dev/elfldr",
+              "ftpsrv": "ps5-payload-dev/ftpsrv",
+              "BFpilot": "ItsBlurf/BFpilot",
+              "nanoDNS": "drakmor/nanoDNS",
+              "websrv": "ps5-payload-dev/websrv",
+              "shsrv": "ps5-payload-dev/shsrv",
+              "klogsrv": "ps5-payload-dev/klogsrv",
+              "Lapy-JB-Daemon": "itsPLK/PS5-Lapy-JB-Daemon",
+              "BackPork": "BestPig/BackPork",
+              "etaHEN": "etaHEN/etaHEN"
+            };
+
+            for (let item of data.payloads) {
+              const targetRepo = repoMap[item.name];
+              if (!targetRepo) continue;
+
+              const release = await getLatestRelease(targetRepo);
+              if (!release || !release.assets) continue;
+
+              // Buscar el asset binario correcto (.elf o .bin)
+              const asset = release.assets.find(a => 
+                a.name.endsWith(".elf") || a.name.endsWith(".bin")
+              );
+
+              if (asset) {
+                item.version = release.tag_name;
+                item.filename = asset.name;
+                item.url = asset.browser_download_url;
+              }
+            }
+
+            fs.writeFileSync("payloads.json", JSON.stringify(data, null, 2));
+            console.log("payloads.json actualizado correctamente.");
+          }
+
+          main();
+          '
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add payloads.json
+          git status
+          git diff-index --quiet HEAD || (git commit -m "auto: actualizar versiones y urls de payloads" && git push)
