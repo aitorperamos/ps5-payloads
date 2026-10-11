@@ -1,213 +1,213 @@
 {
   "name": "Mi Repositorio Personal",
-  "payloads":[
-  {
-    "name": "ps5upload",
-"filename": "ps5upload_v6.7.3.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v6.7.3.elf",
-"description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-"version": "v6.7.3",
-"category": "Networking & Servers"
-},
-{
-"name": "WebKit-Autoloader-Installer",
-"filename": "WebKit-Autoloader-Installer_v0.6.1.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
-"description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)",
-"version": "v0.6.1",
-"category": "Loaders"
-},
-{
-"name": "PKG-Manager",
-"filename": "PKG-Manager_v1.5.0.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.5.0.elf",
-"description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5",
-"version": "v1.5.0",
-"category": "Utilities & Tools"
-},
-{
-"name": "ps-patch-system",
-"filename": "ps-patch-system_37549880588.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps-patch-system_37549880588.elf",
-"description": "App patching system",
-"version": "37549880588",
-"category": "Utilities & Tools"
-},
-{
-"name": "ps5-web-file-manager",
-"filename": "ps5-web-file-manager_v1.10.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
-"description": "A file manager for PS5 with a web UI",
-"version": "v1.10",
-"category": "Utilities & Tools"
-},
-{
-"name": "ps5-app-dumper",
-"filename": "ps5-app-dumper_v2.10.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-app-dumper_v2.10.elf",
-"description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device.",
-"version": "v2.10",
-"category": "Utilities & Tools"
-},
-{
-"name": "CheatRunner",
-"filename": "CheatRunner_v0.17.2.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.17.2.elf",
-"description": "Web-based game cheat trainer",
-"version": "v0.17.2",
-"category": "Utilities & Tools"
-},
-{
-"name": "ShadowMountPlus",
-"filename": "ShadowMountPlus_1.7beta3.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta3.elf",
-"description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
-"version": "1.7beta3",
-"category": "Utilities & Tools"
-},
-{
-"name": "zftpd",
-"filename": "zftpd_v1.6.0.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.6.0.elf",
-"description": "Zero-copy FTP/HTTP Server",
-"version": "v1.6.0",
-"category": "Networking & Servers"
-},
-{
-"name": "pldmgr",
-"filename": "pldmgr_v0.5.2.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.5.2.elf",
-"description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
-"version": "v0.5.2",
-"category": "Utilities & Tools"
-},
-{
-"name": "ps5debug-NG",
-"filename": "ps5debug-NG_1.3.2.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf",
-"description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
-"version": "1.3.2",
-"category": "Utilities & Tools"
-},
-{
-"name": "kstuff-lite",
-"filename": "kstuff-lite_v1.11.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
-"description": "Lite version of kstuff",
-"version": "v1.11",
-"category": "System & Jailbreak"
-},
-{
-"name": "ftpsrv-drakmor",
-"filename": "ftpsrv-drakmor_1.16-ng-stable.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv-drakmor_1.16-ng-stable.elf",
-"description": "drakmor's fork of ftpsrv",
-"version": "1.16-ng-stable",
-"category": "Networking & Servers"
-},
-{
-"name": "garlic-savemgr",
-"filename": "garlic-savemgr_v1.13.1.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.13.1.elf",
-"description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
-"version": "v1.13.1",
-"category": "Utilities & Tools"
-},
-{
-"name": "onionHEN",
-"filename": "onionHEN_v0.0.13.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.0.13.elf",
-"description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN",
-"version": "v0.0.13",
-"category": "System & Jailbreak"
-},
-{
-"name": "ps5-linux-loader",
-"filename": "ps5-linux-loader_v2.5.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-linux-loader_v2.5.elf",
-"description": "Linux payload implementing HV exploits to run a custom bootloader",
-"version": "v2.5",
-"category": "Loaders"
-},
-{
-"name": "elfldr",
-"filename": "elfldr_v0.26.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.26.elf",
-"description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
-"version": "v0.26",
-"category": "Loaders"
-},
-{
-"name": "ftpsrv",
-"filename": "ftpsrv_v0.21.1.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
-"description": "A simple FTP server that accepts connections on port 2121",
-"version": "v0.21.1",
-"category": "Networking & Servers"
-},
-{
-"name": "BFpilot",
-"filename": "BFpilot_v0.4.4.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.4.4.elf",
-"description": "Lightweight PS5 file manager, browser based",
-"version": "v0.4.4",
-"category": "Utilities & Tools"
-},
-{
-"name": "nanoDNS",
-"filename": "nanoDNS_0.4.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.4.elf",
-"description": "Local DNS proxy server",
-"version": "0.4",
-"category": "Networking & Servers"
-},
-{
-"name": "websrv",
-"filename": "websrv_v0.34.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
-"description": "A simple web server that accepts connections on port 8080",
-"version": "v0.34",
-"category": "Networking & Servers"
-},
-{
-"name": "shsrv",
-"filename": "shsrv_v0.20.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/shsrv_v0.20.elf",
-"description": "A simple telnet-like shell server for jailbroken PS5s that accepts connections on port 2323",
-"version": "v0.20",
-"category": "Networking & Servers"
-},
-{
-"name": "klogsrv",
-"filename": "klogsrv_v0.9.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/klogsrv_v0.9.elf",
-"description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
-"version": "v0.9",
-"category": "Networking & Servers"
-},
-{
-"name": "Lapy-JB-Daemon",
-"filename": "Lapy-JB-Daemon_v1.2.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/Lapy-JB-Daemon_v1.2.elf",
-"description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
-"version": "v1.2",
-"category": "System & Jailbreak"
-},
-{
-"name": "BackPork",
-"filename": "BackPork_0.1.elf",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/BackPork_0.1.elf",
-"description": "Lets you sideload system libraries into PS5 games",
-"version": "0.1",
-"category": "Utilities & Tools"
-},
-{
-"name": "etaHEN",
-"filename": "etaHEN_2.5B.bin",
-"url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/etaHEN_2.5B.bin",
-"description": "AIO HEN payload",
-"version": "2.5B",
-"category": "System & Jailbreak"
-}
-]
+  "payloads": [
+    {
+      "name": "ps5upload",
+      "filename": "ps5upload_v6.7.3.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v6.7.3.elf",
+      "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
+      "version": "v6.7.3",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "WebKit-Autoloader-Installer",
+      "filename": "webkit-autoloader-installer_v0.6.1.elf",
+      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
+      "description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)",
+      "version": "v0.6.1",
+      "category": "Loaders"
+    },
+    {
+      "name": "PKG-Manager",
+      "filename": "pkg-manager_v1.5.1.elf",
+      "url": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.5.1/pkg-manager_v1.5.1.elf",
+      "description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5",
+      "version": "v1.5.1",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "ps-patch-system",
+      "filename": "patch-bundle-loader-orbis.elf",
+      "url": "https://github.com/illusionyy/ps-patch-system/releases/download/38108724867/patch-bundle-loader-orbis.elf",
+      "description": "App patching system",
+      "version": "38108724867",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "ps5-web-file-manager",
+      "filename": "web-file-mgr-v1.10.elf",
+      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
+      "description": "A file manager for PS5 with a web UI",
+      "version": "v1.10",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "ps5-app-dumper",
+      "filename": "ps5-app-dumper_v2.10.elf",
+      "url": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf",
+      "description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device.",
+      "version": "v2.10",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "CheatRunner",
+      "filename": "CheatRunner.elf",
+      "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf",
+      "description": "Web-based game cheat trainer",
+      "version": "v0.18",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "ShadowMountPlus",
+      "filename": "shadowmountplus.elf",
+      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7-beta5fix1/shadowmountplus.elf",
+      "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
+      "version": "1.7-beta5fix1",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "zftpd",
+      "filename": "zftpd-ps4-v1.6.0.bin",
+      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps4-v1.6.0.bin",
+      "description": "Zero-copy FTP/HTTP Server",
+      "version": "v1.6.0",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "pldmgr",
+      "filename": "pldmgr_v0.5.2.elf",
+      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf",
+      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
+      "version": "v0.5.2",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "ps5debug-NG",
+      "filename": "ps5debug-NG_v1.3.2.elf",
+      "url": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
+      "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
+      "version": "1.3.2",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "kstuff-lite",
+      "filename": "kstuff.elf",
+      "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf",
+      "description": "Lite version of kstuff",
+      "version": "v1.11",
+      "category": "System & Jailbreak"
+    },
+    {
+      "name": "ftpsrv-drakmor",
+      "filename": "ftpsrv-ps4.elf",
+      "url": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps4.elf",
+      "description": "drakmor's fork of ftpsrv",
+      "version": "1.16-ng-stable",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "garlic-savemgr",
+      "filename": "garlic-savemgr.elf",
+      "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v1.7/garlic-savemgr.elf",
+      "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
+      "version": "v1.7",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "onionHEN",
+      "filename": "OnionHEN.elf",
+      "url": "https://github.com/aydencharles/onionHEN/releases/download/v0.0.13/OnionHEN.elf",
+      "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN",
+      "version": "v0.0.13",
+      "category": "System & Jailbreak"
+    },
+    {
+      "name": "ps5-linux-loader",
+      "filename": "ps5-linux-loader.elf",
+      "url": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf",
+      "description": "Linux payload implementing HV exploits to run a custom bootloader",
+      "version": "v2.5",
+      "category": "Loaders"
+    },
+    {
+      "name": "elfldr",
+      "filename": "elfldr-ps5.elf",
+      "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf",
+      "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
+      "version": "v0.26",
+      "category": "Loaders"
+    },
+    {
+      "name": "ftpsrv",
+      "filename": "ftpsrv-ps4.elf",
+      "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps4.elf",
+      "description": "A simple FTP server that accepts connections on port 2121",
+      "version": "v0.21.1",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "BFpilot",
+      "filename": "bfpilot.elf",
+      "url": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.4/bfpilot.elf",
+      "description": "Lightweight PS5 file manager, browser based",
+      "version": "v0.4.4",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "nanoDNS",
+      "filename": "nanodns-ps4.elf",
+      "url": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns-ps4.elf",
+      "description": "Local DNS proxy server",
+      "version": "0.4",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "websrv",
+      "filename": "websrv-ps5.elf",
+      "url": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.34/websrv-ps5.elf",
+      "description": "A simple web server that accepts connections on port 8080",
+      "version": "v0.34",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "shsrv",
+      "filename": "shsrv-ps5.elf",
+      "url": "https://github.com/ps5-payload-dev/shsrv/releases/download/v0.20/shsrv-ps5.elf",
+      "description": "A simple telnet-like shell server for jailbroken PS5s that accepts connections on port 2323",
+      "version": "v0.20",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "klogsrv",
+      "filename": "klogsrv-ps4.elf",
+      "url": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps4.elf",
+      "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
+      "version": "v0.9",
+      "category": "Networking & Servers"
+    },
+    {
+      "name": "Lapy-JB-Daemon",
+      "filename": "lapy_jb_daemon-v1.2.elf",
+      "url": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases/download/v1.2/lapy_jb_daemon-v1.2.elf",
+      "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
+      "version": "v1.2",
+      "category": "System & Jailbreak"
+    },
+    {
+      "name": "BackPork",
+      "filename": "ps5-backpork.elf",
+      "url": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
+      "description": "Lets you sideload system libraries into PS5 games",
+      "version": "0.1",
+      "category": "Utilities & Tools"
+    },
+    {
+      "name": "etaHEN",
+      "filename": "etaHEN-2.5B.bin",
+      "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
+      "description": "AIO HEN payload",
+      "version": "2.5B",
+      "category": "System & Jailbreak"
+    }
+  ]
 }
