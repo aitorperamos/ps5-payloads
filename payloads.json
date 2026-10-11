@@ -212,9 +212,9 @@
     {
       "name": "OrbitStore",
       "filename": "orbit_store.elf",
-      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.1.0/orbit_store.elf",
+      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.2.0/orbit_store.elf",
       "description": "Homebrew store para descargar juegos",
-      "version": "v1.1.0",
+      "version": "v1.2.0",
       "category": "Utilities & Tools"
     },
     {
