@@ -75,10 +75,10 @@
     },
     {
       "name": "pldmgr",
-      "filename": "pldmgr_v0.6.0.elf",
-      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.0/pldmgr_v0.6.0.elf",
+      "filename": "pldmgr_v0.6.1.elf",
+      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf",
       "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
-      "version": "v0.6.0",
+      "version": "v0.6.1",
       "category": "Utilities & Tools"
     },
     {
@@ -212,9 +212,9 @@
     {
       "name": "OrbitStore",
       "filename": "orbit_store.elf",
-      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.0/orbit_store.elf",
+      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/orbit_store.elf",
       "description": "Homebrew store para descargar juegos",
-      "version": "v1.3.0",
+      "version": "v1.3.5",
       "category": "Utilities & Tools"
     },
     {
