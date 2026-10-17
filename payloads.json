@@ -35,10 +35,10 @@
     },
     {
       "name": "ps5-web-file-manager",
-      "filename": "web-file-mgr-v1.10.elf",
-      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
+      "filename": "web-file-mgr-v1.11.elf",
+      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf",
       "description": "A file manager for PS5 with a web UI",
-      "version": "v1.10",
+      "version": "v1.11",
       "category": "Utilities & Tools"
     },
     {
